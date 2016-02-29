@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.0" uuid="visionreco_explanation-f516ba">
+ <names>
+  <name lang="en_US">visionreco_explanation</name>
+  <name lang="ja_JP">visionreco_explanation</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">test for vison recognize</description>
+  <description lang="ja_JP">画像認識のテストです。</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>en_US</language>
+  <language>ja_JP</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>ja_JP</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement minVersion="2.4"/>
+  <robotRequirement model="JULIETTE"/>
+ </requirements>
+</package>
